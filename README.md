@@ -1,7 +1,7 @@
 # Broccoli
 
 ## Requirements
-	PHP
-	MySQL
+* PHP
+* MySQL
 	
 ## Installation
