@@ -1,0 +1,50 @@
+a:hover{
+	text-decoration:none;
+}
+
+/*Post List*/
+#postList a i.icon-pencil{
+	opacity:0.5;
+}
+#postList a:hover i.icon-pencil{
+	opacity:1;
+}
+
+/*Edit Post*/
+.markItUp{
+	width:95%;
+}
+.markItUpEditor{
+	width:95%;
+}
+#pub_form, #unpub_form, #delete_form{
+	margin:0;
+}
+#pub_form{
+	margin-bottom:10px;
+}
+#unpub_form, #delete_form{
+	display:inline-block;
+}
+#pub_form p, #pub_form label{
+	margin-top:0;
+	margin-bottom:5px;
+}
+#pub_form input, #pub_form .control-group{
+	margin-bottom:0;
+}
+#pubDateControls{
+	display:none;
+}
+
+/*Smaller screen*/
+@media (max-width: 480px) {
+	body{
+		padding-left:0;
+		padding-right:0;
+	}
+	.container{
+		padding-left:1px;
+		padding-right:1px;
+	}
+}
