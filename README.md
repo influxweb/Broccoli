@@ -4,7 +4,7 @@
 * Easy integration. Simply plugs into any php page.
 * WYSIWYG editing using the TinyMCE rich text editor.
 * Smart and professional UI built upon Twitter's Bootrap framework.
-* 
+* Back-date and schedule posts.
 
 ## Requirements
 * PHP 5 or higher
