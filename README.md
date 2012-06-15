@@ -7,9 +7,9 @@
 * 
 
 ## Requirements
-* PHP 5 or higher*
-* MySQL 5 or higher*
-*not tested on any lower.
+* PHP 5 or higher
+* MySQL 5 or higher
+*Not tested on any lower.*
 	
 ## Installation
 1. Copy files to folder in root, e.g. /broccoli/
