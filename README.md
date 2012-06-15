@@ -9,6 +9,7 @@
 ## Requirements
 * PHP 5 or higher
 * MySQL 5 or higher
+
 *Not tested on any lower.*
 	
 ## Installation
