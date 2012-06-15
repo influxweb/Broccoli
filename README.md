@@ -1,8 +1,15 @@
 # Broccoli
 
+## Features
+* Easy integration. Simply plugs into any php page.
+* WYSIWYG editing using the TinyMCE rich text editor.
+* Smart and professional UI built upon Twitter's Bootrap framework.
+* 
+
 ## Requirements
-* PHP
-* MySQL
+* PHP 5 or higher*
+* MySQL 5 or higher*
+*not tested on any lower.
 	
 ## Installation
 1. Copy files to folder in root, e.g. /broccoli/
