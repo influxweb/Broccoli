@@ -1,5 +1,5 @@
 # Broccoli
-
+*An open source, one user blogging system that easily integrates with existing pages.*
 ## Features
 * Easy integration. Simply plugs into any php page.
 * WYSIWYG editing using the TinyMCE rich text editor.
