@@ -5,6 +5,7 @@
 * WYSIWYG editing using the TinyMCE rich text editor.
 * Smart and professional UI built upon Twitter's Bootrap framework.
 * Back-date and schedule posts.
+* Free for personal and commercial use.
 
 ## Requirements
 * PHP 5 or higher
