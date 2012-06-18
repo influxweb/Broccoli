@@ -2,7 +2,14 @@ a:hover{
 	text-decoration:none;
 }
 
+.brand{
+	font-family:"Courier New", Courier, monospace;
+}
+
 /*Post List*/
+.page-header h4{
+	color:gray;
+}
 #postList a i.icon-pencil{
 	opacity:0.5;
 }
@@ -11,38 +18,62 @@ a:hover{
 }
 
 /*Edit Post*/
-.markItUp{
-	width:95%;
-}
-.markItUpEditor{
-	width:95%;
-}
-#pub_form, #unpub_form, #delete_form{
-	margin:0;
-}
-#pub_form{
+h4.sep{
+	background-color:#ededed;
+	padding:5px;
+	position:relative;
+	margin-left:-10px;
+	margin-right:-10px;
+	margin-top:-10px;
+	border-radius: 3px 3px 0px 0px;
+	border: 1px solid rgba(0, 0, 0, 0.05);
+	}
+.sep{
 	margin-bottom:10px;
+	border-bottom:1px solid rgba(0, 0, 0, 0.05);
 }
-#unpub_form, #delete_form{
-	display:inline-block;
+#tagList, #imageList ul{
+	list-style-type:none;
+	margin-left:5px;
 }
-#pub_form p, #pub_form label{
-	margin-top:0;
-	margin-bottom:5px;
+	#tagList li, #imageList ul li{
+		position:relative;
+		padding-left:16px;
+		line-height:18px;
+	}
+	#tagList li:before, #imageList ul li:before{
+		background-image: url("../img/glyphicons-halflings.png");
+		background-repeat: no-repeat;
+		background-position: 0 -48px;
+		width:14px;
+		height:14px;
+		display:block;
+		position:absolute;
+		content: "";
+		top:2px;
+		left:0px;
+	}
+	#imageList ul li:before{
+		background-position: -456px -48px;
+	}
+#tagList li strong, #imageList ul li strong{
+	opacity:0;
 }
-#pub_form input, #pub_form .control-group{
-	margin-bottom:0;
+#imageList ul li span{
+	cursor:pointer;
 }
-#pubDateControls{
-	display:none;
+#tagList li:hover strong, #imageList ul li:hover strong{
+	opacity:0.85;
+	cursor:pointer;
 }
 
 /*Smaller screen*/
-@media (max-width: 480px) {
-	body{
-		padding-left:0;
-		padding-right:0;
+@media (min-width: 768px) and (max-width: 979px){
+	.saveDel{
+		margin-top:10px;
 	}
+}
+@media (max-width: 480px){
 	.container{
 		padding-left:1px;
 		padding-right:1px;
