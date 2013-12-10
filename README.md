@@ -1,5 +1,7 @@
 # Broccoli - NO LONGER SUPPORTED
 *An open source, one user blogging system that easily integrates with existing pages.*
+
+Broccoli is no longer maintained as my time is spent on other projects. For archive purposes, I'll leave the code here.
 ## Features
 * Easy integration. Simply plugs into any php page.
 * WYSIWYG editing using the TinyMCE rich text editor.
